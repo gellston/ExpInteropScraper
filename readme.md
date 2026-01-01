@@ -95,11 +95,8 @@ namespace ConsoleSharp
     {
         static void Main(string[] args)
         {
-
-
             var scrapper = new SharpScrapperLib.SimpleScraper();
             var html = scrapper.GetHtml("https://www.naver.com");
-
             System.Console.WriteLine(html);
         }
     }
@@ -112,10 +109,9 @@ namespace ConsoleSharp
 #include <iostream>
 #include <expInteropScrapper.h>
 
-int main()
+void main()
 {
     try {
-
         auto scrapper = expInterop::expInteropScrapper::create();
         auto html_content = scrapper->getHtml("https://www.naver.com");
         std::cout << html_content << std::endl;
