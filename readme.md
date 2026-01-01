@@ -109,14 +109,21 @@ namespace ConsoleSharp
 ## Native usage example (ConsoleCpp)
 
 ```cpp
-#include "expInteropScrapper.h"
 #include <iostream>
+#include <expInteropScrapper.h>
 
-int main() {
-    auto scraper = expInterop::expInteropScrapper::create();
-    std::string html = scraper->getHtml("https://example.com");
-    std::cout << html << std::endl;
-    return 0;
+int main()
+{
+    try {
+
+        auto scrapper = expInterop::expInteropScrapper::create();
+        auto html_content = scrapper->getHtml("https://www.naver.com");
+        std::cout << html_content << std::endl;
+
+    }
+    catch (std::exception ex) {
+
+    }
 }
 ```
 
@@ -136,7 +143,3 @@ int main() {
 4. Run `ConsoleCpp` (native) or `ConsoleCSharp` (managed test)
 
 ---
-
-## License
-
-MIT License — see [LICENSE](LICENSE).
