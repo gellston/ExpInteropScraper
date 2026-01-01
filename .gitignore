@@ -1,0 +1,13 @@
+﻿################################################################################
+# 이 .gitignore 파일은 Microsoft(R) Visual Studio에서 자동으로 만들어졌습니다.
+################################################################################
+
+/ExpInteropScraper/.vs/ExpInteropScraper.slnx
+/ExpInteropScraper/ConsoleCpp/x64/Debug
+/ExpInteropScraper/ConsoleSharp/bin/x64/Debug/net10.0
+/ExpInteropScraper/ConsoleSharp/obj
+/ExpInteropScraper/ExpInteropScraperLib/obj
+/ExpInteropScraper/ExpInteropScraperLib/x64
+/ExpInteropScraper/SharpScrapperLib/bin/x64
+/ExpInteropScraper/SharpScrapperLib/obj
+/ExpInteropScraper/x64/Debug
