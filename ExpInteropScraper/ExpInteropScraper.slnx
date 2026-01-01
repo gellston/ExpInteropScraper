@@ -1,0 +1,15 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ConsoleCpp/ConsoleCpp.vcxproj" />
+  <Project Path="ConsoleSharp/ConsoleSharp.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+  <Project Path="ExpInteropScraperLib/ExpInteropScraperLib.vcxproj" />
+  <Project Path="SharpScrapperLib/SharpScrapperLib.csproj">
+    <Platform Solution="*|x64" Project="x64" />
+  </Project>
+</Solution>
