@@ -4,7 +4,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ConsoleCpp/ConsoleCpp.vcxproj" />
+  <Project Path="ConsoleCpp/ConsoleCpp.vcxproj" Id="24d9952a-0d0a-4ab7-a5a3-a5dcf3ef60d5" />
   <Project Path="ConsoleSharp/ConsoleSharp.csproj">
     <Platform Solution="*|x64" Project="x64" />
   </Project>
