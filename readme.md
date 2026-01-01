@@ -86,6 +86,26 @@ The C# object is owned by the internal implementation:
 
 ---
 
+## Managed usage example (ConsoleCpp)
+
+```csharp
+namespace ConsoleSharp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            var scrapper = new SharpScrapperLib.SimpleScraper();
+            var html = scrapper.GetHtml("https://www.naver.com");
+
+            System.Console.WriteLine(html);
+        }
+    }
+}
+```
+
 ## Native usage example (ConsoleCpp)
 
 ```cpp
